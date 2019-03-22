@@ -1,0 +1,13 @@
+.naranja {
+    color: #15257e;
+    background-color: #ff723a;
+}
+.azul {
+    color: #ff723a;
+    background-color: #15257e;
+    text-align: right;
+}
+#invertido {
+    color: #ff723a;
+    background-color: #15257e;
+}
