@@ -1,0 +1,14 @@
+#contact {
+        background-color: #04f0d0;
+}
+#info {
+    color: #09ff46;
+    background-color: #6a04f0;
+    text-align: center;
+}
+.red-text {
+    color: red;
+}
+.big-text {
+    font-size: 30px;
+}
