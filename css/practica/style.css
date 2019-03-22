@@ -1,0 +1,20 @@
+ #val {
+    color:#22b28e;
+    background-color: #3f3e13;
+}
+ div {
+    color:#7e152f;
+    background-color: #3f3e13;
+}
+.violet-text {
+    background-color: rgb(204, 129, 17) ;
+}
+.red-text {
+    color:red;
+}
+.blue-text {
+    color:blue;
+}
+.green-text {
+    color:green;
+}
