@@ -1,0 +1,19 @@
+
+#contact {
+    color: red;
+    background-color: darkblue;
+ 
+}
+#info {
+    color: rgb(0, 255, 191);
+    background-color: rgb(101, 101, 158);
+ 
+}
+.red-text {
+    color: red;
+   
+}
+.big-text {
+    font-size: 30px;
+    text-align: right;
+}
