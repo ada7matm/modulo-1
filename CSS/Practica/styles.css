@@ -1,0 +1,31 @@
+h1, h2 {
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 30px
+}
+h2 {
+    color: #91D4C2;
+    background-color: #000000;
+    font-size: 12px
+}
+
+#Comentario2 {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#Comentario1 {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 14px
+}
+
+.color-blue {
+    color: #13262F;
+    font-size: 22px;
+    background-color: #FFFFFF;
+}
+
+body {
+    text-align: right;
+}
