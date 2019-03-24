@@ -1,0 +1,19 @@
+h1, h2 {
+    text-align: center;
+}
+h1, h3 {
+    color: #044904;
+}
+h2 {
+    color: #00aa00;
+    }
+.list-title {
+    font-size: 20px;
+    color: #520d6d;
+}
+#how-to, #conclusion {
+    background-color: #d8a7e4;
+}
+.bold {
+    font-weight: bold;
+}
