@@ -1,0 +1,35 @@
+h1 {
+    background-color: #1f6d46
+}
+ h2, h3 {
+     background-color: #6bddd7
+ }
+
+ #contact {
+     background-color: #d2f1e7
+ }
+
+ #info {
+     background-color: #a7f7d9;
+     text-align: center
+ }
+
+ .color-text {
+     color: #1da31d;
+ }
+
+ .red-text {
+     color: red
+ }
+
+ .orange-text {
+     color: orangered
+ }
+
+ .yellow-text {
+     color: yellow
+ }
+
+ .big-text {
+    font-size: 30px;
+ }
