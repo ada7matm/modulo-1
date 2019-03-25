@@ -1,0 +1,11 @@
+aside, h1, h2 { color: #8440c9ef;
+    background-color: #f5a197; 
+}
+p {color: #00f7ff}
+section{color: #f86df8; background-color: #98d61a}
+div {color: #f86df8}
+
+#info {color: red}
+
+.red-text {color: red}
+.big-text {font-size: 30px}
