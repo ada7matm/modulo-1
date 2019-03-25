@@ -1,0 +1,22 @@
+* {
+    background-color:#89D6F3;
+    color: #3F3F3F;
+}
+
+.title-text {
+    color: #E8E6E7;
+}
+
+#contact-form {
+    background-color: #47BDFF;
+}
+
+#places
+{
+    background-color:#F4D38D;
+    align-items: center;
+}
+#contact
+{
+    align-items: center;
+}
