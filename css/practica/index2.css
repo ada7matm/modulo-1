@@ -1,0 +1,35 @@
+main , aside , .column {
+    float: left;
+}
+
+.box-large {
+    width: 500px;
+    height: 500px;
+    background-color:black;
+    
+}
+.box-color1 {
+   background-color:red;
+   width:200px;
+    height: 200px;
+    margin:50px;
+
+}
+.box-color2 {
+    background-color:blue;
+    width:200px;
+    height: 200px;
+    margin:50px;
+}
+.box-color3 {
+    background-color:pink;
+    width:200px;
+    height: 200px;
+    margin:50px;
+}
+.box-color4 {
+    background-color:aqua;
+    width:200px;
+    height: 200px;
+    margin:50px;
+}
