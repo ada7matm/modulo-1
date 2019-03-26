@@ -1,0 +1,38 @@
+main, aside, .column {
+    float: left;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.box-large {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.color-1 {
+    background-color: blueviolet;
+}
+
+.color-2 {
+    background-color: beige;
+}
+
+.color-3 {
+    background-color: black;
+}
+
+.color-4 {
+    background-color: aliceblue;
+}
+
+.column {
+    margin: 0px 100px;
+}
+
+.margin {
+    margin-top: 100px;
+}
