@@ -17,3 +17,6 @@ h2 {
 .bold {
     font-weight: bold;
 }
+.img-left {
+    float: left;
+}

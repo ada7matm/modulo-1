@@ -1,0 +1,36 @@
+.boxcolor-1 {
+    background-color: #4040e9;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.boxcolor-2 {
+    background-color: #e72424;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.boxcolor-3 {
+    background-color: #e340e9;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.boxcolor-4 {
+    background-color: #079135;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.bigbox {
+    background-color: #1e221f;
+    width: 410px;
+    height: 410px;
+    margin: 10px;
+}
+.column, .bigbox {
+    display: inline-block;
+}
+.column {
+    margin-left: -4px;
+}

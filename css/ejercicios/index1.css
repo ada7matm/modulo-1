@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+}
+.red-text {
+    color: hsl(0, 100%, 50%);
+}
+.green-text {
+    color: #008000;
+}
+.yellow-text {
+    color: yellow;
+}
