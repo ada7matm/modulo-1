@@ -1,35 +1,56 @@
 main , aside , .column {
-    float: left;
+    display:inline-block;
+   }  
+
+/* o float: left; para poner las cajas una al lado de otra y no abajo */
+
+aside {
+    vertical-align: top;
 }
 
 .box-large {
-    width: 500px;
-    height: 500px;
+    width: 440px;
+    height: 440px;
     background-color:black;
-    
+   
 }
 .box-color1 {
-   background-color:red;
+   background-color:rgb(78, 31, 31);
    width:200px;
-    height: 200px;
-    margin:50px;
+    height:200px;
+    margin:20px;
 
 }
 .box-color2 {
-    background-color:blue;
+    background-color:rgb(73, 73, 192);
     width:200px;
     height: 200px;
-    margin:50px;
+    margin:20px;
 }
 .box-color3 {
     background-color:pink;
     width:200px;
     height: 200px;
-    margin:50px;
+    margin:20px;
 }
 .box-color4 {
     background-color:aqua;
     width:200px;
     height: 200px;
-    margin:50px;
+    margin:20px;
+}
+
+.box-color5 {
+   background-color:rgb(109, 41, 116);
+   width:200px;
+    height:200px;
+    margin:20px;
+
+}
+.box-color6 {
+   background-color:rgb(8, 17, 100);
+   width:200px;
+    height:200px;
+    margin:20px;
+
 }

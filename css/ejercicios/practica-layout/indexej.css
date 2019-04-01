@@ -1,0 +1,79 @@
+.banner {
+    background-color:rgb(235, 220, 225);
+    padding:50px 0;
+}
+.logo {
+    background-color: black;
+    height: 200px;
+    width:200px ;
+    margin: 0 auto;
+    border: red solid;
+}
+.navegacion {
+    height: 50px;
+    background-color:black;
+}
+.slide {
+    background-color:rgb(97, 6, 97);
+    height:300px;
+}
+.content {
+    width: 1350px;
+    background-color: rgb(42, 129, 57);
+    height: 600px;
+    margin: 25px  auto;
+}
+footer {
+    background-color: rgb(104, 8, 40);
+   height:200px;
+
+}
+main {
+    background-color:rgb(4, 55, 122);
+    width:800px;
+    height:550px;
+    float: left;
+    margin: 25px;
+   
+}
+aside {
+    background-color:rgb(105, 71, 8);
+    width:400px;
+    height: 550px;
+    float: left;
+    margin: 25px 25px 25px 0;
+}
+.news-medium {
+    background-color: rgb(228, 224, 233);
+    width:350px;
+    height:180px;
+    display:inline-block;
+    margin: 5px auto;
+    
+}
+  
+.news-small {
+    background-color:white;
+    width:350px;
+    height:150px;
+    display: inline-block;
+    margin: 5px auto;
+   
+   
+}
+.news-large {
+    background-color: rgb(228, 224, 233);
+    width:350px;
+    height:180px;
+    display:inline-block;
+    margin: 5px auto;
+    
+}
+
+.circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    background-color: violet;
+  }
