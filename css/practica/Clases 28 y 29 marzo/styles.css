@@ -1,0 +1,126 @@
+body {
+    background-color: lightgreen;
+}
+
+.ajustar {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+}
+.cover {
+    background-image: url("https://i.ytimg.com/vi/3ggIHfwkIWM/maxresdefault.jpg"); /* The image used */
+    background-color: #4e3caf; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    width: 700px;
+    background-position: center; /* aligns the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.cortada {
+    background-image: url("https://i.ytimg.com/vi/3ggIHfwkIWM/maxresdefault.jpg");
+    width: 50%;
+    height: 500px;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: rgb(64, 17, 126);
+    text-align: center;
+    padding-top: 50px;
+    font-family: "samantha";
+}
+@font-face {
+    font-family: "samantha";
+    src: url(fonts/samantha.ttf);
+}
+@font-face {
+    font-family: "sweet_lemonade";
+    src: url(fonts/SweetLemonadeDemo.ttf);
+}
+p {
+    font-family: "sweet_lemonade";
+    font-size: 40px;
+}
+.todo {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.right-box {
+    float: left;
+    width: 25%;
+    height: 700px;
+    background-color: lightblue;
+}
+.middle-box {
+    float: left;
+    width: 15%;
+    height: 700px;
+    background-color: rgb(78, 216, 96);
+}
+.left-box {
+    float: left;
+    width: 59%;
+    height: 700px;
+    background-color: rgb(216, 78, 170);
+}
+@media (max-width: 900px) {
+    .right-box {
+        clear: both;
+        width: 100%;
+        height: 700px;
+        background-color: lightblue;
+    }
+    .left-box {
+        width: 75%;
+    }
+    .middle-box {
+        width: 25%
+    }
+}
+.pruebas {
+    width: 500px;
+    height: 500px;
+    transform: translate(200px, 100px) scale(0.5) rotateZ(25deg);
+    box-shadow: 10px 20px 40px 50px rgba(255,0,0,0.5);
+}
+input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    height: 30px;
+    width: 600px;
+    padding: 20px;
+    border-color: black;
+    background-color: pink;
+    color: blue;
+    }
+    .fixed {
+        position: fixed;
+        right: 100px;
+        top: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .box {
+        width: 300px;
+        height: 300px;
+        background-color: violet;
+        z-index: 2;
+    }
+    .box2 {
+        width: 300px;
+        height: 300px;
+        background-color: rgb(219, 180, 71);
+        z-index: 1;
+        margin-top: 50px;
+    }
+.posiciones {
+    position: absolute;
+    bottom: 100px;
+}
+    
