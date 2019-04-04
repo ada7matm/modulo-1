@@ -1,35 +1,94 @@
-h1 {
-    background-color: #1f6d46
+body {
+    margin: 0px;
+ }
+ 
+ h1 {
+    background-color: #444444;
+    font-family: 'Amaranth';
+    line-height: 70px;
+    padding-left: 16px;
+    border-top: solid #000000;
+    border-bottom: solid #000000;
+    margin: 10px 0px;
 }
- h2, h3 {
-     background-color: #6bddd7
+
+h2, h3 {
+     font-family: 'ZCOOL XiaoWei', serif;
+     line-height: 40px;
+     border-bottom: solid;
+     border-color: #808080;
+     margin: 10px 0px;
  }
 
- #contact {
-     background-color: #d2f1e7
+ p {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 20px 200px;
+    border-left: dashed #004d2f;
+    border-right: dashed #004d2f;
+    text-align: justify;
+    padding: 0px 20px;
  }
 
  #info {
-     background-color: #a7f7d9;
-     text-align: center
+     background-color: #e4e4e4;
+     text-align: center;
+     border: 10px double #5c5959;
  }
 
- .color-text {
-     color: #1da31d;
+ #contact {
+    background-color: #c3fff0;
+    font-size: 20px;
+    border: 10px groove #94f894;
+ }
+
+ #contact-title {
+    line-height: 50px;
+    background-color: #c3fff0;
+    border-top: #c3fff0;
+    border-bottom: solid #3d3d3d;
+    margin: 0px 1180px 0px 0px;
+ }
+
+ .info-titulo {
+     margin: 0px 550px;
+ }
+
+ .contact-titulo-1 {
+    padding-left: 16px;
+    margin: 0px 1160px 0px 0px;
+ }
+
+ .contact-titulo-2 {
+    padding-left: 16px;
+    margin: 0px 1140px 0px 0px;
+ }
+
+.big-text {
+    font-size: 24px;
  }
 
  .red-text {
-     color: red
+     color: #ff0000
  }
 
  .orange-text {
-     color: orangered
+     color: #ffa500
  }
 
  .yellow-text {
-     color: yellow
+     color: #ffff00
  }
 
- .big-text {
-    font-size: 30px;
+ .green-text {
+     color: #008000
+ }
+
+ .blue-text {
+     color: #0000ff
+ }
+
+ .purple-text {
+     color: #800080
  }

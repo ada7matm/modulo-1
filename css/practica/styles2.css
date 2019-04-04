@@ -1,0 +1,432 @@
+body {
+    margin: 0px
+}
+    
+header {
+    background-color: #111111;
+    text-align: center;
+    height: 90px;
+    overflow: hidden;
+}
+
+a {
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 40px 8px 0px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding: 0px 8px;
+}
+
+hr {
+    height: 3px;
+    background-color: #000000;
+    margin-left: 5px;
+    width: 96.5%;
+    border: none;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #313131;
+    font-size: 13px;
+    line-height: 1.8;
+    outline: none;
+    margin-bottom: 20px;
+    width: 374px;
+}
+
+a:hover {
+    color: #a62d2a
+}
+
+#image-section {
+    width: 100%;
+}
+
+#image-section, #news-updates {
+    height: 620px;
+}
+
+#news-updates, #reviews, #consoles {
+    width: 60%;
+}
+
+#reviews {
+    height: 300px; 
+}
+
+#consoles {
+    clear: both;
+}
+
+.header-list {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 22px;
+}
+
+.header-img {
+    margin: 0px 20px;
+    max-height: 55px;
+    padding-top: 16px;
+}
+
+.main-aside, .main-main,
+.main-aside-img-1, .main-aside-img-2,
+.main-aside-img-3, .main-aside-img-4, .news-div, .reviews-div, #consoles, .x-box, .playstation {
+    float: left;
+    display: block;
+}
+
+.main-aside {
+    width: 24.6%;
+    height: 550px;
+}
+
+.main-aside-img-1, .main-aside-img-2, .main-aside-img-3, .main-aside-img-4 {
+    width: 100%;
+    height: 275px;
+    background-repeat: no-repeat;
+}
+
+.main-aside-img-1, .main-aside-img-2 {
+    margin: 5px 5px 0px 0px;
+}
+
+.main-aside-img-3, .main-aside-img-4 {
+    margin: 5px 0px 0px 1px;
+}
+
+.main-aside-img-1 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/fallout_4_paladin-1170x716.jpg");
+    background-size: cover;
+    background-position-x: -60px;
+}
+
+.main-aside-img-2 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/tom_clancys_rainbow_six_siege_art-1170x865.jpg");
+    background-size: cover;
+    background-position-x: -36px;
+}
+
+.main-main {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/recore_2016-1170x643.jpg");
+    width: 50%;
+    height: 555px;
+    background-size: cover;
+    background-position-x: -170px;
+    background-repeat: no-repeat;
+    margin: 5px 5px;
+}
+.main-aside-img-3 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/tom_clancys_ghost_recon_phantoms-1170x869.jpg");
+    background-size: cover;
+    background-position-x: -34px;
+}
+
+.main-aside-img-4 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/call_of_duty_black_ops_2-1170x643.jpg");
+    background-size: cover;
+    background-position-x: -80px;
+}
+
+.main-titles-1, .main-titles-2, .main-titles-4, .main-titles-5, .main-date, .main-subtitle,
+.main-titles-3, .main-date-3, .main-subtitle-3, .news-ul, .news-title-1, .news-title-2, .news-title-3, .news-title-4 {
+    color: #ffffff;
+    z-index: 3;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.main-titles-1, .main-titles-2, .main-titles-4, .main-titles-5, .main-date, .main-subtitle,
+.main-titles-3, .main-date-3, .main-subtitle-3 {
+    text-align: center;
+}
+
+.main-titles-1, .main-titles-2, .main-titles-4, .main-titles-5, .main-date, .main-subtitle {
+    transform: translateY(10px);
+}
+
+.main-titles-3, .main-subtitle-3 {
+    transform: translateY(54px);
+}
+
+.text-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    height: 100px;
+    transform: translateY(162px);
+    z-index: 2;
+}
+
+.text-container-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    height: 200px;
+    transform: translateY(343px);
+    z-index: 2;
+}
+
+.main-titles-1, .main-titles-2, .main-titles-4, .main-titles-5 {
+    font-size: 16px;
+}
+
+.main-titles-1 {
+    padding: 0px 40px;
+}
+
+.main-titles-4 {
+    padding: 0px 30px;
+}
+
+.main-titles-2, .main-titles-5 {
+    padding: 0px 20px;
+}
+
+.main-titles-3 {
+    font-size: 24px;
+    padding: 0px 42px;
+}
+
+.main-date, .main-subtitle, .main-date-3, .main-subtitle-3, .news-ul,
+.news-title-1, .news-title-2, .news-title-3, .news-title-4 {
+    font-weight: 500; 
+    font-size: 12px;
+}
+
+.main-ul, .main-ul-3-bot, .main-ul-3-top {
+    margin-right: 45px;
+}
+
+.main-ul-3-bot {
+    margin-bottom: 10px;
+    transform: translateY(44px);
+}
+
+.news-updates {
+    width: 100%;
+}
+
+.title-a {
+    color: #e53935;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.news-images-1, .news-images-2, .news-images-3, .news-images-4 {
+    width: 384px;
+    height: 256px;
+    background-repeat: no-repeat;
+}
+
+.news-images-1 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/gears_of_war_4-1170x722.jpg");
+    background-size: cover;
+}
+
+.news-images-2 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/titanfall_game-1170x642.jpg");
+    background-size: cover;
+}
+
+.news-images-3 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/warcraft_3_arthas-1170x859.jpg");
+    background-size: cover;
+}
+
+.news-images-4 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/total_war_shogun_2-1170x643.jpg");
+    background-size: cover;
+}
+
+.news-div {
+    margin: 5px;
+}
+
+.news-ul {
+    transform: translateY(150px);
+    padding-left: 12px;
+}
+
+.news-title-1, .news-title-2, .news-title-3, .news-title-4 {
+    font-size: 18px;
+    color: #ffffff;
+    z-index: 3;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    transform: translateY(154px);
+}
+
+.news-title-1, .news-title-2  {
+    padding: 0px 30px 0px 20px;
+}
+
+.news-title-3, .news-title-4 {
+    padding: 0px 50px 0px 20px;
+}
+
+.news-title-2, .news-title-4 {
+    margin-top: 10px;
+}
+
+.news-a-bot {
+    clear: both;
+}
+
+.a-bot {
+    color: #e53935;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    padding: 25px 8px 40px 8px;
+    float: left;
+}
+
+.a-bot:hover {
+    color:#e58f8d;
+}
+
+.reviews {
+    width: 100%;
+    height: 260px;
+    margin-left: 6px;
+}
+
+.reviews-div {
+    width: 33%;
+    height: 250px;
+}
+
+.reviews-title {
+    margin-top: 16px;
+}
+
+.reviews-title a, .consoles-title {
+    font-size: 16px;
+    color: #313131;
+    z-index: 3;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding: 0px 6px 0px 0px;
+}
+
+.consoles-title {
+    font-size: 18px;
+}
+
+.reviews-title a:hover, .consoles-title:hover {
+    color: #e53935;
+}
+
+.reviews-img-1, .reviews-img-2, .reviews-img-3 {
+    width: 246px;
+    height: 165px;
+    margin-top: 10px;
+}
+
+.reviews-img-1 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/recore_2016-1170x643.jpg");
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.reviews-img-1 .reviews-title a {
+    margin-left: 6px;
+}
+
+.reviews-img-2 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/call_of_duty_modern_warfare_2-1170x711.jpg");
+    background-size: cover;
+}
+
+.reviews-img-3 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/destiny_3-1170x709.jpg");
+    background-size: cover;
+}
+
+.reviews-img-1:hover, .reviews-img-2:hover, .reviews-img-3:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+.reviews-ul {
+    font-size: 10px;
+    padding-left: 0px;
+}
+
+.reviews-li {
+    padding: 0px 6px 0px 0px;
+    color: #a9a9a9;
+    font-family: 'Roboto Slab', serif;
+}
+
+.reviews-li a {
+    padding: 0px 6px 0px 0px;
+    color: #313131;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+.reviews-li a:hover {
+    color: #e53935;
+}
+
+.news-a-bot a {
+    padding: 20px 8px 0px 8px;
+}
+
+.x-box, .playstation {
+    width: 48%;
+    margin: 0px 5px;
+}
+
+.consoles-img-1, .consoles-img-2 {
+    width: 374px;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    margin-top: 25px;
+}
+
+.consoles-img-1 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/tom_clancys_the_division_base_of_operations-1170x642.jpg");
+    background-size: cover;
+}
+
+.consoles-img-2 {
+    background-image: url("http://max.soledad.pencidesign.com/soledad-game/wp-content/uploads/sites/12/2016/03/crysis_3_2013-1170x859.jpg");
+    background-size: cover;
+}
+
+.consoles-img-1:hover, .consoles-img-2:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.consoles-text {
+    margin-left: 6px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.consoles-text hr {
+    height: 1px;
+    background-color: #dedede;
+    width: 100%;
+}
+
+@media (min-height: 150px){
+    header {
+        position: sticky;
+        top: 0;
+    }
+}

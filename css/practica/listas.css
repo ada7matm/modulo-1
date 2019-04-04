@@ -1,0 +1,124 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJFSsHIHKgyS2vJ8V1VxQ6VcaSYnT30VrptoCjbcFTf_9xeDGv");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+h1 {
+    color: #b80606;
+    font-size: 70px;
+    text-align: center;
+}
+
+.header-li {
+    background-color: #f7c871;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    height: 50px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.header-li-1, .header-li-2, .header-li-3, .header-li-4, .header-li-5 {
+    display: inline;
+    border-bottom: 2px solid #000000;border-bottom: 2px solid #000000;
+    padding: 0px 15px;
+    margin: 0px 6px;
+    position: relative;
+}
+
+.header-li-1:hover, .header-li-2:hover, .header-li-3:hover,
+.header-li-4:hover, .header-li-5:hover {
+    color: #b80606;
+    border-bottom: 2px solid #b80606;
+}
+
+.header-li-1:hover > .sublist-1 {
+    display: block;
+    visibility: visible;
+    color: #000000;
+}
+
+.header-li-2:hover > .sublist-2 {
+    display: block;
+    visibility: visible;
+    color: #000000;
+}
+
+.header-li-3:hover > .sublist-3 {
+    display: block;
+    visibility: visible;
+    color: #000000;
+}
+
+.header-li-4:hover > .sublist-4 {
+    display: block;
+    visibility: visible;
+    color: #000000;
+
+}
+
+.header-li-5:hover > .sublist-5 {
+    display: block;
+    visibility: visible;
+    color: #000000;
+}
+
+.sublist-1, .sublist-2, .sublist-3, .sublist-4, .sublist-5 {
+    visibility: hidden;
+    background-color: #f7c871;
+    border-bottom: 2px solid #000000;
+    border-right: 1px solid #000000;
+    position: absolute;
+    height: 400px;
+    width: 150px;
+    list-style: none;
+    margin-top: 18px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.sub-option-1, .sub-option-2, .sub-option-3,
+.sub-option-4, .sub-option-5 {
+    padding: 10px 0px;
+}
+
+.sub-option-1:hover > .sub-menu-1{
+    display: block;
+    visibility: visible;
+}
+
+.sub-option-2:hover > .sub-menu-2{
+    display: block;
+    visibility: visible;
+}
+
+.sub-option-3:hover > .sub-menu-3{
+    display: block;
+    visibility: visible;
+}
+
+.sub-option-4:hover > .sub-menu-4{
+    display: block;
+    visibility: visible;
+}
+
+.sub-option-5:hover > .sub-menu-5{
+    display: block;
+    visibility: visible;
+}
+
+.sub-menu-1, .sub-menu-2, .sub-menu-3,
+.sub-menu-4, .sub-menu-5 {
+    visibility: hidden;
+    display: none;
+}
+
+.sub-imagen-1 {
+    width: 100px;
+    height: 150px;
+    background-image: url("https://assets.saatchiart.com/saatchi/484210/art/4332623/3402463-KNVHBTVS-7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
