@@ -1,3 +1,57 @@
 body {
-    width: 1200px;
+    background-image: url(http://max.soledad.pencidesign.com/soledad-book/wp-content/uploads/sites/20/2017/06/cork-wallet.png);
+}
+
+.page-container {
+    width: 95%;
+    max-width: 1200px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    max-width: 1200px;
+    height: 50px;
+    background-color: white;
+    border-bottom: 0.5px solid rgb(148, 146, 146);
+    margin: 0 auto;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    /* overflow: hidden; */
+    margin-top: 50px;
+}
+
+.logo {
+    width: 340px;
+    height: 60px;
+}
+h2 {
+    /* font-family: */
+    font-size: 14px;
+}
+.menu {
+    width: 75%;
+    height: 50px;
+    position: relative;
+}
+.menu-item {
+    /* font-family: "" */
+    display: inline-block;
+    position: absolute;
+
+}
+.menu-social {
+    width: 25%;
+}
+.home-item {
+    visibility: hidden;
 }

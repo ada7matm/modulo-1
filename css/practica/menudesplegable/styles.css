@@ -1,7 +1,8 @@
 .container {
-    /* background-image: url(https://images3.alphacoders.com/102/thumb-1920-102727.jpg); */
+    background-image: url(https://www.wohnkunstgalerie.de/media/image/d3/1e/51/bg_schloss-sepia-bruecke-45_60_90_1_1_600x600.jpg);
     background-color: grey;
     background-position: center;
+    background-size: cover;
     width: 100%;
     height: 600px;
 }
@@ -12,43 +13,52 @@ header {
     line-height: 150px;
 }
 h1 {
-    color: rgb(241, 10, 10);
+    color: #ffffff;
 }
 .menu-container {
     width: 100%;
-    height: 70px;
+    height: 50px;
     background-color: #ffff82;
     border-top: 2px  solid black;
     border-bottom: 2px  solid black;
-    position: relative;
     padding-left: 300px;
+    box-sizing: border-box;
 }
+/* .menu-container-try {
+    width: 100%;
+    height: 350px; 
+    background-color: #d1a872;
+    border-bottom: 2px solid black;
+    display: none;
+} */
 .menu-item {
     display: inline-block;
-    margin: 10px 30px auto;
+    margin: 0px 30px auto;
     position: relative;
+
 }
 .submenu-container {
     width: 900px;
-    transform: translateX(-400px);
-    /* background-color: #d1a872; */
-    /* border-bottom: 2px solid black; */
-    /* visibility: hidden; */
-    position: absolute;  
+    visibility: hidden;
+    position: absolute; 
+    left: 0px;
+    padding: 0px;
 }
 
 .submenu-item {
+    background-color: #d1a872;
     list-style: none;
     visibility: hidden;
     color: black;
     position: relative;
+    padding: 0px;
+    /* margin: 5px 0px; */
 }
 
-/* .subsubmenu-container {
-    transform: translateX(100px);
+.subsubmenu-container {
     position: absolute;
     visibility: hidden;
-} */
+}
 .subsubmenu-item {
     list-style: none;
     visibility: hidden;
@@ -58,6 +68,9 @@ h1 {
 .menu-item:hover {
     color: red;
 }
+/* .menu-item:hover .menu-container-try {
+    display: block;
+} */
 .menu-item:hover .submenu-item {
      visibility: visible;
 } 
