@@ -1,0 +1,54 @@
+h1{
+    font-size: 60px;
+  text-align: center;
+  
+}
+.todo{
+    position: relative;
+}
+.background-image {
+    background-size: auto;
+     background-repeat: no-repeat;
+
+    background-image: url("lf_background_trees.jpg");
+}
+
+.header{
+    width: auto;
+    height: 50px;
+    color: black;
+    border-bottom: 6px;
+}
+li{
+    /* float: left;
+     */
+    list-style: none;
+    /* font-size: 30px; */
+    /* margin-left: 100px; */
+   
+}
+.opcion{
+    display: block;
+    position: relative;
+    
+    
+}
+.subopcion{
+    display: none;
+    position: relative;
+    
+} 
+.li{
+    display: none;
+    visibility: hidden;
+    position: relative;
+}
+        
+.opcion:hover  .subopcion{ 
+        display: block;
+        visibility: visible;
+        }
+.subopcion:hover .li{
+            display: block;
+            visibility: visible;
+        }

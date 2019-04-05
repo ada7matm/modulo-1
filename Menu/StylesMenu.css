@@ -1,0 +1,69 @@
+h3 {
+    font-size: 40px;
+    padding: 50px;
+    text-align: center;
+    color: palevioletred;
+}
+.background-image {
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url("clouds-country-daylight-371633.jpg");
+}
+.navClass > ul {
+ font-size: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+ list-style: none;
+ background-color: lavender;
+ 
+ 
+}
+.opciones {
+    position: relative;
+}
+
+.navClass > ul > li {
+    display: inline-block;
+padding: 5px 20px;
+position: relative;
+margin-left: 50px;
+
+
+}
+.navClass > ul > li:hover {
+    display: inline-block;
+padding: 5px 20px;
+
+
+
+}
+ul.subMenu{
+    position: absolute; 
+    list-style: none;
+    visibility: hidden;
+}
+.navClass .opciones:hover > .subMenu{
+    visibility: visible;
+    background-color: rgba(230, 230, 250, 0.493);
+    padding: 5px;
+    border-radius: 2px;
+
+    
+
+}
+ul.subsubMenu{
+    position: absolute; 
+    list-style: none;
+    visibility: hidden;
+
+   
+}
+ .subMenu > li:hover  .subsubMenu{
+    visibility: visible;
+    position: relative;
+    background-color:  rgba(230, 230, 250, 0.493);
+   
+}
+

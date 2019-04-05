@@ -1,0 +1,22 @@
+@font-face
+{
+    font-family: "Stella";
+    src: url("Stella.ttf");
+}
+@font-face
+{
+    font-family: "Dancing-script";
+    src: url("DancingScript-Regular.ttf");
+}
+ .titulo{
+     font-family: Stella;
+     font-size: 50px;
+    color: palevioletred;
+    }
+
+    .section{
+        font-family: Dancing-script;
+        font-size: 30px;
+        color: palegreen;
+        text-align: center;
+    }

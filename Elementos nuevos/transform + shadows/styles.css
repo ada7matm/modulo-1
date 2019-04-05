@@ -1,0 +1,15 @@
+.rubik{
+transform: translate(-10px,-5px) scale(1.5) rotateZ(20deg);
+  box-shadow: -10px -10px 30px 100px rgba(255, 192, 203, 0.596);
+    width:300px;
+  
+}
+.background {
+background-color: palegreen;
+}
+
+.text{
+   color: purple;
+   font-size: 200px;
+   text-shadow: -40px -40px 5px  green;
+}

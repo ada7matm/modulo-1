@@ -1,0 +1,47 @@
+.column {
+width: 80%;
+margin: 0 auto;
+overflow: hidden;
+}
+ 
+.left-box {
+    width: 75%;
+    height: 300px;
+    background: pink;
+    float: left;
+}
+.right-box {
+    width:25%;
+    height: 300px;
+    background: blueviolet;
+    float: left;
+}
+.blue-box{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    z-index: auto;
+    position: fixed;
+    right: 150px;
+    top: 400px;
+    width: 100px;
+    border: 6px solid;
+
+}
+
+.green-box{
+    width: 150px;
+    height: 150px;
+    background: green;
+    position: fixed;
+    right: 150px;
+    width: 100px;
+    border: 6px solid;
+}
+
+.big-box{
+width: auto;
+height: 2000px;
+background: burlywood;
+
+}
