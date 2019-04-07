@@ -1,0 +1,121 @@
+
+body {
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    color: #866e00;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    color: #dbb49b;
+    font-size: 50px;
+    margin: 60px;
+    font-family: 'Lobster', cursive;
+}
+.container {
+    background-color: #fddbae;
+    position: relative;
+    width: 100%;
+}
+.menu {
+    width: 90%;
+    list-style: none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    margin-left: 16%;
+}
+.opciones {
+    float: left;
+    padding-right: 35px;
+    text-align: center;
+    cursor: pointer;
+    height: 64px;
+    box-sizing: border-box;
+}
+.opcion-list {
+    padding-top: 16px;
+    margin: 0px 10px;
+    width: 120px;
+    display: block;
+    border-bottom: 1px solid #a05006;
+}
+.submenu-container {
+    background: #fddfc4;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    height: 0;
+    left: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    visibility: hidden;
+}
+.opcion1 {
+    list-style: none;
+    float: left;
+    padding: 20px 0;
+    height: 220px;
+}
+.sub-opcion {
+    padding: 10px;
+}
+.subopcion-list {
+    width: 180px;
+    display: block;
+    text-align: left;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.subsub-contenido {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    display: none;
+    border-left: 1px solid black;
+}
+.img-subsub {
+    width: 200px;
+    margin: 10px;
+    float: left;
+}
+.sub-opcion1 {
+    float: left;
+    margin: 30px 10px;
+    list-style: none;
+    color: #866e00;
+}
+.sub-sub-opcion {
+list-style-type: none;
+cursor: pointer;
+text-align: left;
+}
+
+/* -------- hover------ */
+
+.opciones:hover .opcion-list {
+border-bottom: 4px solid #4e3e09;
+color: #42350b;
+}
+.opciones:hover .submenu-container {
+    visibility: visible;
+    height: 300px;
+}
+.submenu-container:hover {
+    visibility: visible;
+    height: 300px;
+} 
+.sub-opcion:hover {
+    background-color: #4f2f2f;
+    color: white;
+}
+.sub-opcion:hover .subsub-contenido, .subsub-contenido:hover {
+    display: block;
+}
+.sub-sub-opcion:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
