@@ -1,0 +1,45 @@
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 40px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    flex-direction: row-reverse;
+}
+
+article img{
+    width: 100%;
+}
+.container{
+    display: flex;
+}
+
+aside ul{
+    list-style: none;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    order: 2;
+    justify-content: space-evenly;
+   
+
+}
+article{
+    width: 400px;
+    flex-shrink: 1;
+    margin: 10px;
+    
+}
+
+aside{
+    display: flex;
+    flex-grow: 1;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    order: 0;
+}
