@@ -35,7 +35,7 @@ strong {
 #parte2 {
     color: rgb(0, 255, 191);
     background-color: rgb(101, 101, 158);  
-    width: 400px;
+    width: 450px;
     float: left;
 }
 .titulo2, .subtitulo2 {
@@ -85,3 +85,37 @@ strong {
     margin-left: 40px;
     padding: 70px;
 }
+.big-box {
+    width: 500PX;
+    height: 500PX;
+    background-color: antiquewhite
+}
+.box {
+    width: 200PX;
+    height: 200PX;
+}
+.color1 {
+    background-color: #dce2aa
+}
+.color2 {
+    background-color: #393e41
+}
+.color3 {
+    background-color: #623b5a
+}
+.color4 {
+    background-color: aliceblue
+}
+main, aside, .column {
+   display: inline-block;
+}
+aside {
+    vertical-align: top;
+}
+.column {
+    margin-left: -4px;
+}
+.margin {
+    margin: 50px;
+}
+
